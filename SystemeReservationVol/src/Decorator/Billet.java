@@ -3,8 +3,10 @@ package Decorator;
 import model.ReservationImpl;
 
 public class Billet extends ReservationImpl {
+	
 
-    public double Price() {
+
+	public double Price() {
         return 1200;
     }
 
