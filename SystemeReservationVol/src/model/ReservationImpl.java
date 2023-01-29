@@ -6,10 +6,6 @@ public class ReservationImpl implements Reservation {
     private double price;
     private String details;
 
-    public ReservationImpl(double price, String details) {
-        this.price = price;
-        this.details = details;
-    }
 
     public double Price() {
         return price;

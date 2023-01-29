@@ -1,11 +1,12 @@
 package Decorator;
 
+import model.ReservationImpl;
 import reservation.Reservation;
 
 public class Annulation extends OptionAssurance  {
 
 
-	    public Annulation(Reservation reservation) {
+	    public Annulation(ReservationImpl reservation) {
 	        super(reservation);
 	      
 	    }

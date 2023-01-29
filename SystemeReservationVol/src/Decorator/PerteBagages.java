@@ -1,10 +1,10 @@
 package Decorator;
 
-import reservation.Reservation;
+import model.ReservationImpl;
 
 public class PerteBagages  extends OptionAssurance {
 
-	    public PerteBagages(Reservation reservation) {
+	    public PerteBagages(ReservationImpl reservation) {
 	        super(reservation);
 	       
 	    }

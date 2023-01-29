@@ -1,10 +1,11 @@
 package Decorator;
 
-import reservation.Reservation;
+import model.ReservationImpl;
+
 
 public class ProblemVol  extends OptionAssurance {
 
-	    public ProblemVol(Reservation reservation) {
+	    public ProblemVol(ReservationImpl reservation) {
 	        super(reservation);
 	
 	    }
