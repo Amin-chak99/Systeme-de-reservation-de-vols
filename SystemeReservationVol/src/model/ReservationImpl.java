@@ -41,6 +41,6 @@ public class ReservationImpl implements Reservation {
 	}
 	public String getDetailss() {
 		// TODO Auto-generated method stub
-		return "Billet : ";
+		return "Billet + ";
 	}
 }

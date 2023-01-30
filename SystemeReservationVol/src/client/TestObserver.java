@@ -30,12 +30,12 @@ public class TestObserver {
 			ri2=new PerteBagages(ri2);
 			ri2=new ProblemVol(ri2);
 		cl.update(r1.getDetails(volNational));
-		System.out.println("Price Billet :"+ri1.Price()+ " DT TTC ");
-		System.out.println(ri1.getDetailss());
+		System.out.println("Price Billet ="+ri1.Price()+ " DT TTC ");
+		System.out.println("Details Price :"+ri1.getDetailss());
 		System.out.println("***********************************");
 		pa.update(r1.getDetails(volInternational));
-		System.out.println("Price Billet :"+ri2.Price()+ "DT TTC ");
-		System.out.println(ri2.getDetailss());
+		System.out.println("Price Billet ="+ri2.Price()+ "DT TTC ");
+		System.out.println("Details Price :"+ri2.getDetailss());
 	}
 
 }
