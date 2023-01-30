@@ -4,10 +4,12 @@ import java.util.ArrayList;
 
 import observer.ObservebaleCl;
 import reservation.Reservation;
+import vols.Vol;
 
 public class ReservationImpl implements Reservation {
     private double price;
     private String details;
+    public Vol vol;
     
     private ArrayList<ObservebaleCl> list = new ArrayList<ObservebaleCl>();
     public void setX (String details) {
@@ -22,7 +24,7 @@ public class ReservationImpl implements Reservation {
     
 
 
-   
+    
 	public double getPrice() {
 		return price;
 	}
@@ -31,7 +33,10 @@ public class ReservationImpl implements Reservation {
         return price;
     }
 
-    public String getDetails() {
-        return details;
-    }
+   
+	@Override
+	public String getDetails(Vol vol) {
+		// TODO Auto-generated method stub
+		return vol.afficherInformation();
+	}
 }

@@ -1,7 +1,24 @@
 package vols;
 
+import java.sql.Date;
+
 public class VolNational extends Vol {
-	  private String depart;
+	private String numeroVol;
+    private String aeroportDepart;
+    private String aeroportArrivee;
+    private String dateDepart;
+    private String dateArrivee;
+	  public VolNational(String numeroVol, String aeroportDepart, String aeroportArrivee, String dateDepart,
+			  String dateArrivee) {
+		super(numeroVol, aeroportDepart, aeroportArrivee, dateDepart, dateArrivee);
+		this.numeroVol=numeroVol;
+		this.aeroportDepart=aeroportDepart;
+		this.aeroportArrivee=aeroportArrivee;
+		this.dateDepart=dateDepart;
+		this.dateArrivee=dateArrivee;
+		// TODO Auto-generated constructor stub
+	}
+	private String depart;
 	    private String destination;
 	    public void setDepart(String depart){
 	      this.depart = depart;
@@ -16,8 +33,13 @@ public class VolNational extends Vol {
 	      return this.destination;
 	    }
 		@Override
-		public void afficherInformation() {
-	        System.out.println( "Vol National");			
+		public String afficherInformation() {
+	        return ("Vol National\n"+
+	         "numeroVol :"+numeroVol+"\n"+
+	         "aeroportDepart :"+aeroportDepart+"\n"+
+	        "aeroportArrivee :"+aeroportArrivee+"\n"+
+	         "dateDepart :"+dateDepart+"\n"+
+	       "dateArrivee :"+dateArrivee);
 
 		}
 	}

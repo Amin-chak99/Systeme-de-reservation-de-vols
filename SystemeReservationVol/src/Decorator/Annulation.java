@@ -1,7 +1,7 @@
 package Decorator;
 
 import model.ReservationImpl;
-import reservation.Reservation;
+
 
 public class Annulation extends OptionAssurance  {
 
