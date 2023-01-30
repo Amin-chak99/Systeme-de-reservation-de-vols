@@ -39,4 +39,8 @@ public class ReservationImpl implements Reservation {
 		// TODO Auto-generated method stub
 		return vol.afficherInformation();
 	}
+	public String getDetailss() {
+		// TODO Auto-generated method stub
+		return "Billet : ";
+	}
 }

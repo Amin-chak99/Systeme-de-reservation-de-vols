@@ -8,6 +8,7 @@ public class VolInternational extends Vol {
     private String aeroportArrivee;
     private String dateDepart;
     private String dateArrivee;
+    
    
 	   public VolInternational(String numeroVol, String aeroportDepart, String aeroportArrivee, String dateDepart,
 			   String dateArrivee) {

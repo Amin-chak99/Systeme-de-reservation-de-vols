@@ -11,8 +11,8 @@ public abstract class OptionAssurance extends ReservationImpl {
         this.reservation = reservation;
     }
     public abstract double Price();
-    public String getDetails() {
-        return reservation.getDetails();
+    public String getDetailss() {
+        return reservation.getDetailss();
     }
 }
 

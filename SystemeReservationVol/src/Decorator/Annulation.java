@@ -15,8 +15,8 @@ public class Annulation extends OptionAssurance  {
 	        return 200 + reservation.Price();
 	    }
 	    @Override
-	    public String getDetails() {
-	        return super.getDetails() + ", " + "Assurance d'Annulation";
+	    public String getDetailss() {
+	        return super.getDetailss() + " Assurance d'Annulation ,";
 	    }
 
 }

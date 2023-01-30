@@ -13,7 +13,7 @@ public class PerteBagages  extends OptionAssurance {
 	        return 250 + reservation.Price();
 	    }
 	    @Override
-	    public String getDetails() {
-	        return super.getDetails() + ", " + "Assurance Perte Bagages ";
+	    public String getDetailss() {
+	        return super.getDetailss()  + " Assurance Perte Bagages ,";
 	    }
 }

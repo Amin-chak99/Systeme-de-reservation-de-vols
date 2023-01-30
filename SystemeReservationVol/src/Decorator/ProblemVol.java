@@ -14,8 +14,8 @@ public class ProblemVol  extends OptionAssurance {
 	        return 300 + reservation.Price();
 	    }
 	    @Override
-	    public String getDetails() {
-	        return super.getDetails() + ", " + "Assurance Problem Vol";
+	    public String getDetailss() {
+	        return super.getDetailss() + " Assurance Problem Vol ,";
 	    }
 
 }
