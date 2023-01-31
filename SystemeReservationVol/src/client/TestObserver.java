@@ -31,6 +31,7 @@ public class TestObserver {
 			ri2=new ProblemVol(ri2);
 		cl.update(r1.getDetails(volNational));
 		System.out.println("Price Billet ="+ri1.Price()+ " DT TTC ");
+
 		System.out.println("Details Price :"+ri1.getDetailss());
 		System.out.println("***********************************");
 		pa.update(r1.getDetails(volInternational));
