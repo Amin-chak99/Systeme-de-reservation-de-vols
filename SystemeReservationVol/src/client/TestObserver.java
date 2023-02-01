@@ -29,6 +29,11 @@ public class TestObserver {
 		r1=new PerteBagages(r1);
 			ri1 = new Annulation(ri1);
 			ri2 = new Annulation(ri2);
+			pa.update(r1.getDetails(volInternational));
+			System.out.println("Details Price :"+ri2.getDetailss());
+			System.out.println("Price Billet ="+ri2.Price()+ "DT TTC ");
+			System.out.println("***********************************");
+
 			ri2=new PerteBagages(ri2);
 			ri2=new ProblemVol(ri2);
 		cl.update(r1.getDetails(volNational));
