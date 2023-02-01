@@ -5,8 +5,10 @@ import Decorator.Billet;
 import Decorator.PerteBagages;
 import Decorator.ProblemVol;
 import fabriques.FactoryVol;
+import fabriques.PersonFactory;
 import model.Client;
 import model.Passager;
+import model.Person;
 import model.ReservationImpl;
 import vols.Vol;
 
